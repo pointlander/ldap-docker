@@ -26,3 +26,19 @@ userPassword: johnldap
 gecos: John Doe
 loginShell: /bin/bash
 homeDirectory: /home/john
+
+dn: uid=jane,ou=People,dc=nodomain
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jane
+sn: Doe
+givenName: Jane
+cn: Jane Doe
+displayName: Jane Doe
+uidNumber: 10000
+gidNumber: 5000
+userPassword: janeldap
+gecos: Jane Doe
+loginShell: /bin/bash
+homeDirectory: /home/jane
