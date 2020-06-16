@@ -43,7 +43,7 @@ gecos: Jane Doe
 loginShell: /bin/bash
 homeDirectory: /home/jane
 
-dn: adam@example.com
+dn: uid=adam,dc=example,dc=com
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -59,7 +59,7 @@ gecos: Adam Good
 loginShell: /bin/bash
 homeDirectory: /home/adam
 
-dn: eve@example.com
+dn: uid=eve,dc=example,dc=com
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
