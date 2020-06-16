@@ -42,3 +42,35 @@ userPassword: janeldap
 gecos: Jane Doe
 loginShell: /bin/bash
 homeDirectory: /home/jane
+
+dn: adam@example.com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: adam
+sn: Good
+givenName: Adam
+cn: Adam Good
+displayName: Adam Good
+uidNumber: 10000
+gidNumber: 5000
+userPassword: adamldap
+gecos: Adam Good
+loginShell: /bin/bash
+homeDirectory: /home/adam
+
+dn: eve@example.com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: eve
+sn: Good
+givenName: Eve
+cn: Adam Good
+displayName: Eve Good
+uidNumber: 10000
+gidNumber: 5000
+userPassword: eveldap
+gecos: Eve Good
+loginShell: /bin/bash
+homeDirectory: /home/eve
