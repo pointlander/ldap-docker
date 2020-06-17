@@ -43,14 +43,7 @@ gecos: Jane Doe
 loginShell: /bin/bash
 homeDirectory: /home/jane
 
-dn: dc=example,dc=com
-dc: example
-description: Example company
-objectClass: dcObject
-objectClass: organization
-o: Example, Inc.
-
-dn: uid=adam,dc=example,dc=com
+dn: uid=adam,dc=nodomain
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -66,7 +59,7 @@ gecos: Adam Good
 loginShell: /bin/bash
 homeDirectory: /home/adam
 
-dn: uid=eve,dc=example,dc=com
+dn: uid=eve,dc=nodomain
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
